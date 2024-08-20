@@ -1,0 +1,35 @@
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#container{
+    width: 100%;
+    min-width: 750px;
+    height: 150px;
+    background-color: brown;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.box{
+    /* position:relative; */
+    width:100%;
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 35px;
+    border-radius: 25px;
+    background-color: powderblue;
+    box-shadow: 1px 1px 5px rgb(20, 247, 54);
+}
+.clock{
+    font-size: 45px;
+    font-weight: 900;
+}
